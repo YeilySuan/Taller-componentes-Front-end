@@ -1,7 +1,7 @@
 *{
   margin: 0;
   padding: 0;
-  text-decoration: none;
+  text-decoration: none; 
   list-style: none;
   outline: none;
 }
@@ -13,9 +13,27 @@
 }
 
 .lottie{
-  background-color: rgb(92, 211, 53);
+  background-color: rgb(161, 162, 245);
   height: 50vh;
   display: flex;
   justify-content: center;
   align-items: center;
 }
+
+.imagen-avatar {    
+  position: relative;
+  animation: moveInCircle 2s linear infinite; 
+}
+
+@keyframes moveInCircle {
+  from {
+    transform: rotate(0deg) translateX(10px) rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg) translateX(10px) rotate(-360deg); 
+  }
+}
+
+
+
+
